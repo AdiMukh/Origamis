@@ -1,0 +1,114 @@
+h1{
+    margin-left: 30px;
+}
+
+.header{
+    background-color: #FFD700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.origami{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 30px;
+}
+
+.teddy{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.pigeon{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.origami2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.camel{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.chameleon{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.panda{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.cicada{
+    display: flex;
+    height: 400px;
+    width: 33%;
+}
+
+.para{
+    font-size: 20px;
+    color: #00008b;
+}
+
+body{
+    background-color: #808080;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: green;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.menu a{
+    padding: 15px;
+}
+
+.item{
+    position: relative;
+    margin: 50px;
+}
+
+.item p{
+    opacity: 0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00008b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item img{
+    opacity: 0.9;
+}
+
+.item:hover img{
+    opacity: 1;
+    transform: scale(1.2);
+}
